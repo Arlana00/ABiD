@@ -39,7 +39,7 @@ with st.sidebar:
 if final_response is not None:
     st.write(final_response.result)
     
-    if programming_language == "Python":stream
+    if programming_language == "Python":
             file_extension = "py"
     elif programming_language == "C":
         file_extension = "c"
